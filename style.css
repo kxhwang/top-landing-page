@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 10px 200px 60px 200px;
 }
 
 .header-logo {
@@ -36,6 +36,9 @@ a {
   color: #e5e7eb;
 }
 
+.banner .content {
+  padding: 10px;
+}
 .banner .content .title {
   font-size: 48px;
   font-weight: bolder;
@@ -43,4 +46,10 @@ a {
 
 .banner .content .subtext {
   color: #e5e7eb;
+}
+
+img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
