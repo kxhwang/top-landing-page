@@ -60,12 +60,14 @@ a {
   color: #e5e7eb;
 }
 
-.details {
+.details,
+.sign-up {
   background-color: #3882f6;
-  border-radius: 6px;
+  border-radius: 10px;
   color: #e5e7eb;
   width: max-content;
   height: max-content;
+  min-width: 140px;
   padding: 8px 18px;
   margin: 5px 0;
   font-size: 18px;
